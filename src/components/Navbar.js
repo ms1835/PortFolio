@@ -12,11 +12,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="text-white font-bold text-xl">Your Name</div>
           <ul className="flex space-x-4">
-            <li className="cursor-pointer"><a onClick={() => scrollToSection('home')} className="text-white">Home</a></li>
-            <li className="cursor-pointer"><a onClick={() => scrollToSection('experience')} className="text-white">Experience</a></li>
-            <li className="cursor-pointer"><a onClick={() => scrollToSection('projects')} className="text-white">Projects</a></li>
-            <li className="cursor-pointer"><a onClick={() => scrollToSection('tech-stack')} className="text-white">Tech Stack</a></li>
-            <li className="cursor-pointer"><a onClick={() => scrollToSection('contact')} className="text-white">Contact</a></li>
+            <li className="cursor-pointer"><button onClick={() => scrollToSection('home')} className="text-white">Home</button></li>
+            <li className="cursor-pointer"><button onClick={() => scrollToSection('experience')} className="text-white">Experience</button></li>
+            <li className="cursor-pointer"><button onClick={() => scrollToSection('projects')} className="text-white">Projects</button></li>
+            <li className="cursor-pointer"><button onClick={() => scrollToSection('tech-stack')} className="text-white">Tech Stack</button></li>
+            <li className="cursor-pointer"><button onClick={() => scrollToSection('contact')} className="text-white">Contact</button></li>
           </ul>
         </div>
       </div>
