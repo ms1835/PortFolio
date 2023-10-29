@@ -5,6 +5,9 @@ const Skills = () => {
     <section id='skills' className="bg-gradient-to-tr to-blue-400 from-green-500 py-16">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
+        <p className="text-lg mb-8 text-center">
+          Here are some of the skills I have aquired during my working experience.
+          </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 px-12">
           {/* Frontend */}
           <div className="bg-gradient-to-tr to-gray-600 from-gray-800 p-6 rounded-lg shadow-lg text-center border-2 border-indigo-300">
