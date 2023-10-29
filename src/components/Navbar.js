@@ -19,8 +19,8 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex space-x-4">
           <button className="text-white" onClick={() => scrollToSection('about')}>About</button>
-          <button className="text-white" onClick={() => scrollToSection('experience')}>Projects</button>
-          <button className="text-white" onClick={() => scrollToSection('projects')}>Experience</button>
+          <button className="text-white" onClick={() => scrollToSection('experience')}>Experience</button>
+          <button className="text-white" onClick={() => scrollToSection('projects')}>Projects</button>
           <button className="text-white" onClick={() => scrollToSection('skills')}>Skills</button>
           <button className="text-white" onClick={() => scrollToSection('contact')}>Contact</button>
         </div>
@@ -49,8 +49,8 @@ const Navbar = () => {
       {showMenu && (
         <div className="md:hidden py-2 mt-4">
           <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('about')}>About</button>
-          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('projects')}>Projects</button>
           <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('experience')}>Experience</button>
+          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('projects')}>Projects</button>
           <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('skills')}>Skills</button>
           <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('contact')}>Contact</button>
         </div>

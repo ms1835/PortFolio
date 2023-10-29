@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <section id='skills' className="bg-gradient-to-tr to-blue-400 from-green-500 py-16">
+    <section id='skills' className="bg-gradient-to-tr to-blue-400 from-green-500 py-24">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
         <p className="text-lg mb-8 text-center">
@@ -15,7 +15,7 @@ const Skills = () => {
             <div className="flex flex-wrap justify-center">
               <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
                 <span>
-                  <img src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"} className='inline w-8 h-8 pr-1 text-tean-600'></img>
+                  <img src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"} className='inline w-8 h-8 pr-1'></img>
                 </span>
                 <span>React</span>
               </div>

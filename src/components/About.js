@@ -3,7 +3,7 @@ import profile from '../assets/images/other.jpg';
 
 const About = () => {
   return (
-    <section id='about' className="bg-gradient-to-tr to-blue-400 from-green-500 bg-blue-900 text-white py-20">
+    <section id='about' className="bg-gradient-to-tr to-blue-400 from-green-500 bg-blue-900 text-white py-48">
       <div className="container-fluid px-4 md:px-16 flex flex-col md:flex-row items-center justify-around">
         <div className="max-w-[450px] mb-10 md:mb-0">
           <h2 className="text-4xl font-bold mb-6 text-center">
