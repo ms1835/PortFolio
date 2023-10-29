@@ -15,13 +15,13 @@ const Navbar = () => {
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <h1 className="text-white text-2xl font-bold">Your Name</h1>
+          <h1 className="text-white text-2xl font-bold">PortFolio</h1>
         </div>
         <div className="hidden md:flex space-x-4">
-          <button className="text-white" onClick={() => scrollToSection('home')}>Home</button>
+          <button className="text-white" onClick={() => scrollToSection('about')}>About</button>
           <button className="text-white" onClick={() => scrollToSection('experience')}>Projects</button>
           <button className="text-white" onClick={() => scrollToSection('projects')}>Experience</button>
-          <button className="text-white" onClick={() => scrollToSection('tech-stack')}>Tech Stack</button>
+          <button className="text-white" onClick={() => scrollToSection('skills')}>Skills</button>
           <button className="text-white" onClick={() => scrollToSection('contact')}>Contact</button>
         </div>
         <div className="md:hidden flex items-center">
@@ -48,10 +48,10 @@ const Navbar = () => {
       </div>
       {showMenu && (
         <div className="md:hidden py-2 mt-4">
-          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('home')}>Home</button>
+          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('about')}>About</button>
           <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('projects')}>Projects</button>
           <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('experience')}>Experience</button>
-          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('tech-stack')}>Tech Stack</button>
+          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('skills')}>Skills</button>
           <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('contact')}>Contact</button>
         </div>
       )}

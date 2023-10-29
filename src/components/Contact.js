@@ -36,7 +36,7 @@ const ContactSection = () => {
   }
 
   return (
-    <section id='contact' className="bg-[#270e47] py-16">
+    <section id='contact' className="bg-gradient-to-tr to-blue-400 from-green-500 py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl font-bold mb-8 text-center text-white">Contact</h2>
         <p className="text-2xl font-bold mb-8 text-center text-white">Reach out to me for any query or opportunities !!!</p>
