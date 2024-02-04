@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../assets/images/other.jpg';
+import profile from '../assets/images/profile.jpg';
 
 const About = () => {
   return (
@@ -15,9 +15,10 @@ const About = () => {
           </p>
           <div>
             <a 
-              href='https://drive.google.com/file/d/1CfAn9a1gMmrO5hdF_7MUyqRGYa53zDJf/view?usp=drive_link'
+              href='https://drive.google.com/file/d/1aOApFJXKqJEq5Z5ADNDlIb6peADJhGoq/view?usp=drive_link'
               target="_blank"
               className="flex bg-white text-blue-900 font-semibold py-2 px-6 rounded-full text-lg transition ease-in-out duration-300 hover:bg-blue-100 justify-center"
+              rel="noreferrer"
             >
               View Resume
             </a>

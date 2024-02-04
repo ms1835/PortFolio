@@ -48,7 +48,7 @@ const ContactSection = () => {
                 type="text"
                 id="name"
                 name="name"
-                className={"w-full border-2 p-3 focus:border-dashed outline-none rounded-lg placeholder-gray-600 focus:placeholder-gray-400 "+ `${(submitted && !formData.name) ? 'border-red-800': 'border-teal-800' }`}
+                className={`w-full border-2 p-3 focus:border-dashed outline-none rounded-lg placeholder-gray-600 focus:placeholder-gray-400 ${(submitted && !formData.name) ? 'border-red-800': 'border-teal-800' }`}
                 placeholder="Your Name"
                 value={formData.name}
                 onChange={handleInputChange}
@@ -64,7 +64,7 @@ const ContactSection = () => {
                 type="email"
                 id="email"
                 name="email"
-                className={"w-full border-2 p-3 focus:border-dashed outline-none rounded-lg placeholder-gray-600 focus:placeholder-gray-400 "+ `${(submitted && !formData.email) ? 'border-red-800': 'border-teal-800' }`}
+                className={`w-full border-2 p-3 focus:border-dashed outline-none rounded-lg placeholder-gray-600 focus:placeholder-gray-400 ${(submitted && !formData.email) ? 'border-red-800': 'border-teal-800' }`}
                 placeholder="Your Email"
                 value={formData.email}
                 onChange={handleInputChange}
@@ -80,7 +80,7 @@ const ContactSection = () => {
                 type="text"
                 id="subject"
                 name="subject"
-                className={"w-full border-2 p-3 focus:border-dashed outline-none rounded-lg placeholder-gray-600 focus:placeholder-gray-400 "+ `${(submitted && !formData.subject) ? 'border-red-800': 'border-teal-800' }`}
+                className={`w-full border-2 p-3 focus:border-dashed outline-none rounded-lg placeholder-gray-600 focus:placeholder-gray-400 ${(submitted && !formData.subject) ? 'border-red-800': 'border-teal-800' }`}
                 placeholder="Subject"
                 value={formData.subject}
                 onChange={handleInputChange}
@@ -96,7 +96,7 @@ const ContactSection = () => {
                 id="message"
                 name="message"
                 rows="5"
-                className={"w-full border-2 p-3 focus:border-dashed outline-none rounded-lg placeholder-gray-600 focus:placeholder-gray-400 "+ `${(submitted && !formData.message) ? 'border-red-800': 'border-teal-800' }`}
+                className={`w-full border-2 p-3 focus:border-dashed outline-none rounded-lg placeholder-gray-600 focus:placeholder-gray-400 ${(submitted && !formData.message) ? 'border-red-800': 'border-teal-800' }`}
                 placeholder="Message"
                 value={formData.message}
                 onChange={handleInputChange}

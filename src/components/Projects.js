@@ -30,7 +30,7 @@ const Projects = () => {
         <p className="text-lg mb-8 text-center">
           Here are a list of projects that I have worked upon.
           </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 m-2 px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 m-2 px-6">
           {projects.map((project, index) => (
             <div key={index} className="bg-gradient-to-tr to-gray-600 from-gray-800 p-6 rounded-lg shadow-lg">
               <img src={project.image} alt={project.name} className="w-full h-50 object-cover mb-6 rounded-lg" />
