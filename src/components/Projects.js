@@ -8,15 +8,15 @@ const Projects = () => {
       name: 'VideoStreaming',
       image: VideoStreaming,
       techStack: ['EJS', 'Node.js', 'Express Js', 'MongoDB'],
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec justo elementum urna.',
+      description: 'Designed and developed a user-friendly video streaming platform allowing users to sign up and upload their content, fostering a vibrant community of creators and viewers.',
       githubLink: 'https://github.com/ms1835/VideoStreaming',
-      liveDemoLink: 'https://videostreaming-6sfl.onrender.com/'
+      liveDemoLink: 'https://videogram-y314.onrender.com/'
     },
     {
       name: 'Home Bazaar',
       image: HomeBazaar,
       techStack: ['React', 'Node.js', 'Express Js', 'Socket.io', 'MongoDB'],
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec justo elementum urna.',
+      description: 'Developed a comprehensive real estate management portal facilitating seamless interaction with authentication and authorization mechanisms, safeguarding user data and maintaining privacy.',
       githubLink: 'https://github.com/ms1835/RealEstate',
       liveDemoLink: 'https://homebazaar.onrender.com/'
     }
