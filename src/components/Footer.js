@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-10">
-      <div className="container mx-auto flex flex-wrap justify-between">
-        <div className="w-full md:w-1/3 m-6 mb-6 md:mb-0">
+      <div className="container mx-auto flex flex-wrap justify-around">
+        <div className="w-full md:w-1/3 m-6 mb-6 md:mb-0 text-center">
           <h3 className="text-2xl font-bold mb-4">Navigation</h3>
           <ul className="space-y-2 m-6">
             <li><a href="#about" className="hover:text-gray-400">About</a></li>
@@ -14,7 +14,7 @@ const Footer = () => {
             <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
           </ul>
         </div>
-        <div className="w-full md:w-1/3 m-6 mb-6 md:mb-0">
+        <div className="w-full md:w-1/3 m-6 mb-6 md:mb-0 text-center">
           <h3 className="text-2xl font-bold mb-4">Social Media</h3>
           <ul className="space-y-2 m-6">
           <li>

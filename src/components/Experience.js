@@ -12,7 +12,7 @@ const Experience = () => {
         "Demonstrated proficiency in writing comprehensive service tests for each component developed, guaranteeing optimal performance and functionality."
         ],
       tenure: 'July 2023 - Present',
-      techStack: ['React', 'Redux', 'Typescript', 'Java', 'Jest', 'JUnit', 'SCSS', 'MySQL', 'MongoDB']
+      techStack: ['React', 'Redux', 'Java', 'Javascript', 'SCSS', 'MySQL', 'MongoDB']
     },
     {
       company: 'NimbleWork',
@@ -25,7 +25,7 @@ const Experience = () => {
         "Applied Test-Driven Development methodology in feature development, guaranteeing that every component met stringent testing standards for optimal functionality."
       ],
       tenure: 'Jan 2023 - Jun 2023',
-      techStack: ['React Native', 'React', 'JavaScript', 'Redux', 'Cordova', 'Jest']
+      techStack: ['React Native', 'React', 'JavaScript', 'Redux', 'Jest']
     }
   ];
 

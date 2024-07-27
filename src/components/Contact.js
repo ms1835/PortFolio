@@ -8,6 +8,8 @@ const ContactSection = () => {
     message: ''
   });
   const [submitted, setSubmitted] = useState(false);
+  const [result, setResult] = useState("");
+
   const handleInputChange = e => {
     const {name,value} = e.target;
     setFormData({
@@ -16,23 +18,45 @@ const ContactSection = () => {
     })
   };
 
-  const handleSubmit = e => {
-    e.preventDefault();
+  const handleSubmit = async(event) => {
+    event.preventDefault();
     setSubmitted(true);
+    setResult("Sending...");
 
-    // if(!formData.name || !formData.email || !formData.subject || !formData.message){
-    //   return;
-    // }
-    // Handle form submission
+    const formData = new FormData(event.target);
+    for (let [key, value] of formData.entries()) {
+      console.log(`${key}: ${value}`);
+    }
 
-    // setSubmitted(false);
-    // setFormData({
-    //   name:'',
-    //   email:'',
-    //   subject:'',
-    //   message:''
-    // })
-;
+    formData.append("access_key", "9ff9dcc0-a8db-47d0-b4f2-fd2a7c41547b");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+    const data = await response.json();
+    console.log("Data: ", data);
+
+    if(data.success){
+      setResult("Email sent successfully");
+      event.target.reset();
+    }
+    else{
+      console.log("Error", data);
+      setResult(data.message);
+    }
+
+    setSubmitted(false);
+    setFormData({
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    })
+
+    setTimeout(()=> {
+      setResult("");
+    },5000);
   }
 
   return (
@@ -114,6 +138,7 @@ const ContactSection = () => {
               Send Message
             </button>
           </form>
+          { result && <div className='text-center my-3 text-lg font-bold text-white'>{result}</div>}
         </div>
       </div>
     </section>

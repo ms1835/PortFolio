@@ -1,4 +1,5 @@
 import React from 'react';
+import Expo from '../assets/images/profile.png';
 
 const Skills = () => {
   return (
@@ -43,17 +44,17 @@ const Skills = () => {
                 </span>
                 <span>CSS</span>
               </div>
-              <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
+              {/* <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
                 <span>
                   <img src={"https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"} className='inline w-6 h-6 pr-1' alt=""></img>
                 </span>
                 <span>Bootstrap</span>
-              </div>
+              </div> */}
               <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
                 <span>
                   <img src={"https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"} className='inline w-6 h-6 pr-1' alt=""></img>
                 </span>
-                <span>Tailwind CSS</span>
+                <span>Tailwind</span>
               </div>
               {/* Add more technologies as needed */}
             </div>
@@ -81,12 +82,12 @@ const Skills = () => {
                 </span>
                 <span>Java</span>
               </div>
-              <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
+              {/* <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
                 <span>
                   <img src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"} className='inline w-6 h-6 pr-1' alt=""></img>
                 </span>
                 <span>Python</span>
-              </div>
+              </div> */}
               <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
                 <span>
                   <img src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"} className='inline w-6 h-6 pr-1' alt=""></img>
@@ -115,9 +116,9 @@ const Skills = () => {
               </div>
               <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
                 <span>
-                  <img src={"https://cordova.apache.org/static/img/cordova_bot.png"} className='inline w-6 h-6 pr-1' alt=""></img>
+                  <img src={Expo} className='inline w-6 h-6 pr-1' alt=""></img>
                 </span>
-                <span>Cordova</span>
+                <span>Expo</span>
               </div>
               <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
                 <span>
@@ -146,12 +147,12 @@ const Skills = () => {
                 </span>
                 <span>Git</span>
               </div>
-              <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
+              {/* <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
                 <span>
                   <img src={"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"} className='inline w-6 h-6 pr-1' alt=""></img>
                 </span>
                 <span>Github</span>
-              </div>
+              </div> */}
               <div className="flex mb-2 mr-2 bg-blue-100 hover:bg-blue-200 text-black-400 font-semibold px-2 border border-green-400 rounded-lg shadow-lg items-center">
                 <span>
                   <img src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"} className='inline w-6 h-6 pr-1' alt=""></img>
