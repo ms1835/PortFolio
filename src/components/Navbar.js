@@ -12,10 +12,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 p-4 fixed w-full">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <h1 className="text-white text-2xl font-bold">PortFolio</h1>
+          <h1 className="text-white text-2xl font-bold">MAYANK SINGH</h1>
         </div>
         <div className="hidden md:flex space-x-4">
           <button className="text-white" onClick={() => scrollToSection('about')}>About</button>
@@ -48,11 +48,11 @@ const Navbar = () => {
       </div>
       {showMenu && (
         <div className="md:hidden py-2 mt-4">
-          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('about')}>About</button>
-          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('experience')}>Experience</button>
-          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('projects')}>Projects</button>
-          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('skills')}>Skills</button>
-          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => scrollToSection('contact')}>Contact</button>
+          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => {toggleMenu(); scrollToSection('about')}}>About</button>
+          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => {toggleMenu(); scrollToSection('experience')}}>Experience</button>
+          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => {toggleMenu(); scrollToSection('projects')}}>Projects</button>
+          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => {toggleMenu(); scrollToSection('skills')}}>Skills</button>
+          <button className="w-full block text-white px-4 py-2 hover:bg-white hover:text-black rounded-md" onClick={() => {toggleMenu(); scrollToSection('contact')}}>Contact</button>
         </div>
       )}
     </nav>
