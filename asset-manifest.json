@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/PortFolio/static/css/main.7a628c76.css",
-    "main.js": "/PortFolio/static/js/main.bf90651b.js",
+    "main.css": "/PortFolio/static/css/main.092bdc80.css",
+    "main.js": "/PortFolio/static/js/main.679c85f1.js",
     "static/js/787.1ed0c42c.chunk.js": "/PortFolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/HomeBazaar.png": "/PortFolio/static/media/HomeBazaar.1c6b44621ed595d62e8a.png",
     "static/media/profile.jpg": "/PortFolio/static/media/profile.f9eddd47c46c779a54f6.jpg",
+    "static/media/TaskManager.jpg": "/PortFolio/static/media/TaskManager.2da51f7d17de361c9266.jpg",
     "static/media/VideoStreaming.png": "/PortFolio/static/media/VideoStreaming.1f1e22ff0334ea3cc361.png",
+    "static/media/Chit-Chat.png": "/PortFolio/static/media/Chit-Chat.cf91fdb207d2efcaacbc.png",
     "static/media/profile.png": "/PortFolio/static/media/profile.6c0bfc1deb0aa9c589e7.png",
     "index.html": "/PortFolio/index.html",
-    "main.7a628c76.css.map": "/PortFolio/static/css/main.7a628c76.css.map",
-    "main.bf90651b.js.map": "/PortFolio/static/js/main.bf90651b.js.map",
+    "main.092bdc80.css.map": "/PortFolio/static/css/main.092bdc80.css.map",
+    "main.679c85f1.js.map": "/PortFolio/static/js/main.679c85f1.js.map",
     "787.1ed0c42c.chunk.js.map": "/PortFolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a628c76.css",
-    "static/js/main.bf90651b.js"
+    "static/css/main.092bdc80.css",
+    "static/js/main.679c85f1.js"
   ]
 }
