@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-10">
       <div className="container mx-auto flex flex-wrap justify-around">
-        <div className="w-full md:w-1/3 m-6 mb-6 md:mb-0 text-center">
+        <div className="w-full md:w-1/4 mb-6 md:mb-0 text-center">
           <h3 className="text-2xl font-bold mb-4">Navigation</h3>
           <ul className="space-y-2 m-6">
             <li><a href="#about" className="hover:text-gray-400">About</a></li>
@@ -14,7 +14,7 @@ const Footer = () => {
             <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
           </ul>
         </div>
-        <div className="w-full md:w-1/3 m-6 mb-6 md:mb-0 text-center">
+        <div className="w-full md:w-1/4 mb-6 md:mb-0 text-center">
           <h3 className="text-2xl font-bold mb-4">Social Media</h3>
           <ul className="space-y-2 m-6">
           <li>
@@ -36,6 +36,7 @@ const Footer = () => {
             {/* Add more social media links as needed */}
           </ul>
         </div>
+        <iframe className='w-full md:w-1/3 mb-6 md:mb-0 text-center rounded-lg' src="https://maps.google.com/maps?width=100%&amp;height=200&amp;hl=en&amp;coord=26.8124547,80.9766761&amp;q=Ardonamau,+Uttar+Pradesh,+India&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" height={250} frameborder="10" marginheight="0" marginwidth="0"></iframe>
       </div>
       <div className="text-center mt-8">
         <p>&copy; 2024 &nbsp; All Rights Reserved.</p>

@@ -9,9 +9,10 @@ const About = () => {
           <h2 className="text-4xl font-bold mb-6 text-center">
             Hello, I'm Mayank Singh
           </h2>
-          <p className="text-lg mb-8 text-center">
-          Passionate Software Engineer with a flair for crafting elegant and efficient solutions. 
-          Dedicated to pushing the boundaries of technology to create impactful applications and systems.
+          <p className="text-lg mb-8 text-left">
+          A passionate and skilled software developer specializing in building dynamic, user-centric applications with a focus on seamless functionality and intuitive design. 
+          I thrive on solving complex problems and creating innovative solutions that enhance user experiences. 
+          With a commitment to continuous learning, I stay at the forefront of technology to deliver high-quality, impactful projects.
           </p>
           <div>
             <a 
