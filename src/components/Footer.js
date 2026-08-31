@@ -36,7 +36,7 @@ const Footer = () => {
             {/* Add more social media links as needed */}
           </ul>
         </div>
-        <iframe className='w-full md:w-1/3 mb-6 md:mb-0 text-center rounded-lg' src="https://maps.google.com/maps?width=100%&amp;height=200&amp;hl=en&amp;coord=26.8124547,80.9766761&amp;q=Ardonamau,+Uttar+Pradesh,+India&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" height={250} frameborder="10" marginheight="0" marginwidth="0"></iframe>
+        <iframe title='location' className='w-full md:w-1/3 mb-6 md:mb-0 text-center rounded-lg' src="https://maps.google.com/maps?width=100%&amp;height=200&amp;hl=en&amp;coord=26.8124547,80.9766761&amp;q=Ardonamau,+Uttar+Pradesh,+India&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" height={250} frameborder="10" marginheight="0" marginwidth="0"></iframe>
       </div>
       <div className="text-center mt-8">
         <p>&copy; 2024 &nbsp; All Rights Reserved.</p>
